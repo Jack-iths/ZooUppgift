@@ -9,9 +9,9 @@ public class ZooKeeper
         Name = name;
     }
 
-    public void FeedAnimal()
+    public void FeedAnimal(Animal animal)
     {
-
+        Console.WriteLine($"{Name} is feeding animal {animal.Name} ");
     }
     
 }

@@ -4,8 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        var animal = new Animal("", "", "");
-        animal.AddAnimal("kalle", "get", "Herbivore");
-        animal.Info();
+       var a1 = new Animal("Kalle", "Get", "Herbivore");
+
+        var zooKeeper = new ZooKeeper("Kalle");
+        
+        zooKeeper.FeedAnimal(a1);
     }
 }
